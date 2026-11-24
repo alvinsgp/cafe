@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu — Fig &amp; Filter</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="nav.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Fig &amp; Filter</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Navigation">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html" aria-current="page">Menu</a></li>
+          <li><a href="catering.html">Catering</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="visit.html">Visit</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-intro">
+      <div class="container">
+        <span class="eyebrow-rule" aria-hidden="true"></span>
+        <h1>Menu</h1>
+        <p class="dietary-key">Dietary markers: (V) vegetarian · (VG) vegan · (GF) gluten-free</p>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="menu-hero">
+        <figure class="figure">
+          <img src="images/menu-flatlay.jpg" alt="A croissant and two lattes on a wooden table, seen from above" width="1200" height="800">
+        </figure>
+        <figure class="figure">
+          <img src="images/latte-art.jpg" alt="Close-up of heart-shaped latte art in a Fig &amp; Filter cup" width="800" height="800">
+        </figure>
+      </div>
+
+      <div class="menu-grid">
+        <section class="menu-section" aria-labelledby="coffee">
+          <h2 id="coffee">Coffee</h2>
+          <table class="price-table">
+            <thead>
+              <tr><th scope="col">Item</th><th scope="col" class="price">Price</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Espresso</td><td class="price">$3.50</td></tr>
+              <tr><td>Long black</td><td class="price">$4.00</td></tr>
+              <tr><td>Flat white</td><td class="price">$5.00</td></tr>
+              <tr><td>Latte</td><td class="price">$5.00</td></tr>
+              <tr><td>Cappuccino</td><td class="price">$5.00</td></tr>
+              <tr><td>Filter of the week (ask what's on)</td><td class="price">$6.00</td></tr>
+              <tr><td>Iced latte</td><td class="price">$6.00</td></tr>
+              <tr><td>Extra shot / oat or soy milk</td><td class="price">+$0.80</td></tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="menu-section" aria-labelledby="not-coffee">
+          <h2 id="not-coffee">Not Coffee</h2>
+          <table class="price-table">
+            <thead>
+              <tr><th scope="col">Item</th><th scope="col" class="price">Price</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Loose-leaf tea (English breakfast, sencha, chamomile)</td><td class="price">$4.50</td></tr>
+              <tr><td>Chai latte</td><td class="price">$5.50</td></tr>
+              <tr><td>Fresh orange juice</td><td class="price">$6.00</td></tr>
+              <tr><td>House-made lemonade with fig syrup</td><td class="price">$5.50</td></tr>
+              <tr><td>Hot chocolate</td><td class="price">$5.00</td></tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="menu-section" aria-labelledby="all-day-kitchen">
+          <h2 id="all-day-kitchen">All-Day Kitchen</h2>
+          <table class="price-table">
+            <thead>
+              <tr><th scope="col">Item</th><th scope="col" class="price">Price</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Sourdough toast, cultured butter, house jam <span class="marker">(V)</span></td><td class="price">$8.00</td></tr>
+              <tr><td>Granola, yoghurt, seasonal fruit <span class="marker">(V, GF)</span></td><td class="price">$12.00</td></tr>
+              <tr><td>Mushrooms on toast, poached egg, herbs <span class="marker">(V)</span></td><td class="price">$16.00</td></tr>
+              <tr><td>Fig &amp; Filter big breakfast</td><td class="price">$22.00</td></tr>
+              <tr><td>Halloumi and roast-vegetable sandwich <span class="marker">(V)</span></td><td class="price">$14.00</td></tr>
+              <tr><td>Chicken schnitzel sandwich, slaw, pickles</td><td class="price">$16.00</td></tr>
+              <tr><td>Soup of the day with sourdough (ask)</td><td class="price">$12.00</td></tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="menu-section" aria-labelledby="bakery">
+          <h2 id="bakery">Bakery</h2>
+          <table class="price-table">
+            <thead>
+              <tr><th scope="col">Item</th><th scope="col" class="price">Price</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Butter croissant <span class="marker">(V)</span></td><td class="price">$4.50</td></tr>
+              <tr><td>Almond croissant <span class="marker">(V)</span> — until they run out</td><td class="price">$6.00</td></tr>
+              <tr><td>Fig and walnut scone <span class="marker">(V)</span></td><td class="price">$5.00</td></tr>
+              <tr><td>Banana bread, toasted <span class="marker">(V, GF)</span></td><td class="price">$6.50</td></tr>
+              <tr><td>Cookie of the day <span class="marker">(V)</span></td><td class="price">$4.00</td></tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+
+      <div class="footnote">
+        <p>Prices include tax. The kitchen closes at 3:30pm; coffee and bakery run until close.</p>
+        <a class="button-primary" href="visit.html">Find us →</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Fig &amp; Filter</p>
+        <p>Roasted here. Baked here. Poured for you.</p>
+      </div>
+      <div>
+        <p>8 Chalk Lane (corner of Weaver Street)</p>
+        <p class="tabular">Open Tuesday to Sunday, 7:30am – 5:00pm</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="mailto:hello@figandfilter.example">hello@figandfilter.example</a></li>
+        <li><a class="tabular" href="tel:+15550142286">(555) 014-2286</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
